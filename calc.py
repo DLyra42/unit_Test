@@ -7,7 +7,7 @@ def subtract (x,y):
     return x - y
 
 # Multiply function
-def multiply (x, y):
+def multiply (x,y):
     return x * y
 
 # Divide function
