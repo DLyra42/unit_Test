@@ -1,9 +1,17 @@
-#initial commit
-
+# Add function
 def addition (x,y):
-    sum = x + y
-    return sum
+    return x + y
 
+# Subtract function
 def subtraction (x,y):
-    sub = x - y
-    return sub
+    return x - y
+
+# Multiply function
+def multiply(x, y):
+    return x*y
+
+# Divide function
+def divide(x,y):
+    if y == 0:
+        raise ValueError('Can not divide by zero!')
+    return x / y 
